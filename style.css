@@ -1,4 +1,5 @@
 body{
+    width: 100%;
     background-image: url('img/light-live-background-css.jpg');  
 }
 h1,h2{
@@ -7,5 +8,37 @@ h1,h2{
     color: rgba(0, 0, 0, 0.498);
 }
 header>img{
-    float: calc();
+    display: flex;
+    margin: auto;
+    border-radius: 360px;
+}
+header>a{
+    display: block;
+    text-align: center;
+    width: 100px;
+    margin: auto;
+    padding: 5px;
+    border: 2px black solid;
+    border-radius: 30px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blanchedalmond;
+    background-color: black
+}
+section>a>img{
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+#logo{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 5px;
+}
+section>h3{
+    color: burlywood;
+}
+.sec{
+    margin-left: 50px;
 }
